@@ -31,6 +31,7 @@ resource "opentelekomcloud_compute_instance_v2" "grid-director" {
     destination_type      = "volume"
     delete_on_termination = true
   }
+  depends_on = ["opentelekomcloud_blockstorage_volume_v2.grid-director-sys-vol"]
 }
 
 

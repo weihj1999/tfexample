@@ -39,6 +39,7 @@ resource "opentelekomcloud_compute_instance_v2" "data-filer" {
     boot_index            = 1
     delete_on_termination = true
   }
+  depends_on = ["opentelekomcloud_blockstorage_volume_v2.data-filer-sys-vol"]
 }
 
 
