@@ -11,9 +11,13 @@ network Structure:
 	+mgmt service
 +grid-net
 	+grid cluster
+	
 +fe-net
+
 	+jumphost
+
 +data-net
+
 	+Filer service
 
 
