@@ -7,7 +7,7 @@ resource "opentelekomcloud_blockstorage_volume_v2" "grid-engine-sys-vol" {
   size     = 30
   #image_id = "08e0b566-5e21-4862-ae09-4b162fad79d7"
   image_id = "b5cd010e-99f1-4d7c-878b-4f967bcae472"
-  availability_zone = "eu-de-02"
+  availability_zone = "eu-de-01"
   volume_type = "SATA"
 }
 
@@ -16,7 +16,7 @@ resource "opentelekomcloud_compute_instance_v2" "grid-engine" {
   name            = "grid-engine${count.index}"
   flavor_name     = "s1.4xlarge"
   key_pair        = "${opentelekomcloud_compute_keypair_v2.grid-terraform-key.name}"
-  availability_zone = "eu-de-02"
+  availability_zone = "eu-de-01"
   security_groups = [
     "${opentelekomcloud_compute_secgroup_v2.secgrp-grid.name}"
   ]
