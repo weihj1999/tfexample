@@ -7,17 +7,15 @@ network Structure:
 +gateway-net
 
 +mgmt-net
-
 	+mgmt service
+
 +grid-net
 	+grid cluster
-	
-+fe-net
 
++fe-net
 	+jumphost
 
 +data-net
-
 	+Filer service
 
 
