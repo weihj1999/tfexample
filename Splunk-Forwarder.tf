@@ -31,7 +31,7 @@ resource "opentelekomcloud_compute_instance_v2" "mgmt-splunk" {
     destination_type      = "volume"
     delete_on_termination = true
   }
-  depends_on = ["opentelekomcloud_blockstorage_volume_v2.mgmt-splunk-sys-vol"]
+  depends_on = ["opentelekomcloud_networking_router_v2.grid-vpc", "opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.mgmt-splunk-sys-vol"]
 }
 
 
