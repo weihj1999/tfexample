@@ -1,6 +1,10 @@
-###
-#Create volume from image
-###
+#########################################################################
+#Create system disk from image, the disk will be encripted by default cmk
+#Please aware, it is not supported to using a customized key for encription
+#when we create a volume from image
+#You can refer to OTC help center for detail.
+#########################################################################
+
 resource "opentelekomcloud_blockstorage_volume_v2" "grid-director-sys-vol" {
   count    = "${var.director_count}"
   name     = "grid-director-sys-vol-${count.index}"

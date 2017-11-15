@@ -1,6 +1,9 @@
-###
-#Create volume from image
-###
+#########################################################################
+#Create system disk from image, the disk will be encripted by default cmk
+#Please aware, it is not supported to using a customized key for encription
+#when we create a volume from image
+#You can refer to OTC help center for detail.
+#########################################################################
 resource "opentelekomcloud_blockstorage_volume_v2" "fe-jumphost-sys-vol" {
   count    = "${var.jumphost_count}"
   name     = "fe-jumphost-sys-vol-${count.index}"
@@ -23,7 +26,6 @@ resource "opentelekomcloud_compute_instance_v2" "fe-jumphost" {
   network {
     uuid           = "${opentelekomcloud_networking_network_v2.fe-net.id}"
   }
-
   block_device {
     uuid = "${element(opentelekomcloud_blockstorage_volume_v2.fe-jumphost-sys-vol.*.id,count.index)}"
     source_type           = "volume"
