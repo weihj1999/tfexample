@@ -1,7 +1,9 @@
 # tfexample
 Provide an example to show how to use Open Telekom Cloud to build your infrastructure. 
 
-AZ is specified to eu-de-02
+AZ is specified to eu-de-01
+
+
 
 
 network Structure:
