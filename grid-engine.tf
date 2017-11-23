@@ -16,6 +16,8 @@ resource "opentelekomcloud_blockstorage_volume_v2" "grid-engine-sys-vol" {
 ##################################################################
 #Create a blank volume
 #__system__encrypted and __system__cmkid are used for encription
+#Please ensure xrole is created to get a default key, and refer to
+#https://docs.otc.t-systems.com/en-us/usermanual/evs/en-us_topic_0021738346.html
 ###################################################################
 resource "opentelekomcloud_blockstorage_volume_v2" "grid-engine-data-vol" {
   count = "${var.engine_count}"
@@ -24,7 +26,7 @@ resource "opentelekomcloud_blockstorage_volume_v2" "grid-engine-data-vol" {
   volume_type = "SSD"
   metadata = {
     "__system__encrypted" = 1
-    "__system__cmkid" = "c62c8978-1153-48a0-b971-0f4752cbf401"
+    "__system__cmkid" = "${var.kms-vol-key}" 
   }
 }
 
@@ -50,11 +52,11 @@ resource "opentelekomcloud_compute_instance_v2" "grid-engine" {
     delete_on_termination = true
   }
 
-  depends_on = ["opentelekomcloud_networking_router_v2.grid-vpc", "opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol"]
+  depends_on = ["opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol"]
 }
 resource "opentelekomcloud_compute_volume_attach_v2" "engine_volume_attach" {
   count       = "${var.engine_count}"
   instance_id = "${element(opentelekomcloud_compute_instance_v2.grid-engine.*.id, count.index)}"
   volume_id   = "${element(opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol.*.id, count.index)}"
-  depends_on = ["opentelekomcloud_compute_instance_v2.grid-engine"]
+  depends_on = ["opentelekomcloud_compute_instance_v2.grid-engine","opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol"]
 }

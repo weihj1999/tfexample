@@ -26,6 +26,10 @@ variable "ssh_pub_key" {
   default = "~/.ssh/id_rsa.pub"
 }
 
+variable "kms-vol-key" {
+  default = "fc9f2d4c-8104-4387-beba-427e38dd50cf"
+}
+
 variable "broker_count" {
   default = 2
 }
