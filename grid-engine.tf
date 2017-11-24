@@ -37,7 +37,7 @@ resource "opentelekomcloud_compute_instance_v2" "grid-engine" {
   key_pair        = "${opentelekomcloud_compute_keypair_v2.grid-terraform-key.name}"
   availability_zone = "eu-de-02"
   security_groups = [
-    "${opentelekomcloud_compute_secgroup_v2.secgrp-grid.name}"
+    "${opentelekomcloud_networking_secgroup_v2.secgrp_grid.name}"
   ]
 
   network {

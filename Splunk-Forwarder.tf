@@ -21,7 +21,7 @@ resource "opentelekomcloud_compute_instance_v2" "mgmt-splunk" {
   key_pair        = "${opentelekomcloud_compute_keypair_v2.grid-terraform-key.name}"
   availability_zone = "eu-de-01"
   security_groups = [
-    "${opentelekomcloud_compute_secgroup_v2.secgrp-mgmt.name}"
+    "${opentelekomcloud_networking_secgroup_v2.secgrp_mgmt.name}"
   ]
 
   network {
@@ -35,8 +35,7 @@ resource "opentelekomcloud_compute_instance_v2" "mgmt-splunk" {
     destination_type      = "volume"
     delete_on_termination = true
   }
-  #depends_on = ["opentelekomcloud_networking_router_v2.grid-vpc", "opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.mgmt-splunk-sys-vol"]
-  depends_on = ["opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.mgmt-splunk-sys-vol"]
+  depends_on = ["opentelekomcloud_networking_subnet_v2.mgmt-subnet","opentelekomcloud_blockstorage_volume_v2.mgmt-splunk-sys-vol"]
 }
 
 
