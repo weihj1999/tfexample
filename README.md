@@ -33,6 +33,10 @@ The scripts folder is kept for the cloud-init for provisioning.
 
 Important Notice
 1.  All instances should add dependency.
-  depends_on = ["opentelekomcloud_networking_router_v2.grid-vpc", "opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.grid-broker-sys-vol"]
+  depends_on = ["opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.grid-broker-sys-vol"]
 
-
+2. The default egress direction is allow all once a security group rule is added. Security group rules
+ for both ingress and egress are treated the same. The rules are additive, so as long as the traffic is
+ allowed by any rule, it'll go through. As there is no deny rule list like all egress is allowed, and 
+ if any rules were defined then only those rules would be enforced and there would be a default deny 
+ for everything else
