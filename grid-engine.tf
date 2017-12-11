@@ -52,8 +52,9 @@ resource "opentelekomcloud_compute_instance_v2" "grid-engine" {
     delete_on_termination = true
   }
 
-  depends_on = ["opentelekomcloud_networking_subnet_v2.grid-subnet","opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol"]
+  depends_on = ["opentelekomcloud_networking_router_interface_v2.grid-int","opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol"]
 }
+
 resource "opentelekomcloud_compute_volume_attach_v2" "engine_volume_attach" {
   count       = "${var.engine_count}"
   instance_id = "${element(opentelekomcloud_compute_instance_v2.grid-engine.*.id, count.index)}"

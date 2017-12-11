@@ -9,7 +9,7 @@ resource "opentelekomcloud_networking_router_v2" "grid-vpc" {
 }
 
 ########################################################
-# 2 Create a subnet for gateway
+# 2. Create a subnet for gateway
 # This is the subnet which connects the Gateway services to 
 # the internal systems. VPN to the Firewall for example
 ########################################################

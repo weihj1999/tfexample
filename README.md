@@ -40,3 +40,17 @@ Important Notice
  allowed by any rule, it'll go through. As there is no deny rule list like all egress is allowed, and 
  if any rules were defined then only those rules would be enforced and there would be a default deny 
  for everything else
+
+How to control concurrency in Terraform?
+Add command line flag:
+-parallelism=n - Limit the number of concurrent operation as Terraform
+
+The amount of parallelism is limited using a semaphore to prevent too many concurrent operations from 
+overwhelming the resources of the machine running Terraform. By default, up to 10 nodes in the graph 
+will be processed concurrently. This number can be set using the -parallelism flag on the plan, apply,
+ and destroy commands.
+
+Setting -parallelism is considered an advanced operation and should not be necessary for normal usage 
+of Terraform. It may be helpful in certain special use cases or to help debug Terraform issues.
+
+
