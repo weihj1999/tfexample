@@ -42,6 +42,7 @@ Important Notice
  for everything else
 
 How to control concurrency in Terraform?
+
 Add command line flag:
 -parallelism=n - Limit the number of concurrent operation as Terraform
 
