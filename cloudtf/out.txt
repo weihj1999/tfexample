@@ -1,0 +1,374 @@
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[0]: Creating...[0m
+  attachment.#:      "" => "<computed>"
+  availability_zone: "" => "eu-de-02"
+  image_id:          "" => "073feea8-fbb5-4ce6-ae39-ef827523791e"
+  metadata.%:        "" => "<computed>"
+  name:              "" => "win-engine-sys-vol-0"
+  region:            "" => "<computed>"
+  size:              "" => "30"
+  tags.%:            "" => "2"
+  tags.ETYPE:        "" => "UAT"
+  tags.VTYPE:        "" => "System"
+  volume_type:       "" => "SSD"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[1]: Creating...[0m
+  attachment.#:                 "" => "<computed>"
+  availability_zone:            "" => "eu-de-02"
+  metadata.%:                   "" => "2"
+  metadata.__system__cmkid:     "" => "3e71f3f9-c361-49b2-b3a1-cdae626c2211"
+  metadata.__system__encrypted: "" => "1"
+  name:                         "" => "win-engine-data-vol-1"
+  region:                       "" => "<computed>"
+  size:                         "" => "10"
+  tags.%:                       "" => "2"
+  tags.ETYPE:                   "" => "UAT"
+  tags.VTYPE:                   "" => "System"
+  volume_type:                  "" => "SSD"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[1]: Creating...[0m
+  attachment.#:      "" => "<computed>"
+  availability_zone: "" => "eu-de-02"
+  image_id:          "" => "073feea8-fbb5-4ce6-ae39-ef827523791e"
+  metadata.%:        "" => "<computed>"
+  name:              "" => "win-engine-sys-vol-1"
+  region:            "" => "<computed>"
+  size:              "" => "30"
+  tags.%:            "" => "2"
+  tags.ETYPE:        "" => "UAT"
+  tags.VTYPE:        "" => "System"
+  volume_type:       "" => "SSD"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[0]: Creating...[0m
+  attachment.#:                 "" => "<computed>"
+  availability_zone:            "" => "eu-de-02"
+  metadata.%:                   "" => "2"
+  metadata.__system__cmkid:     "" => "3e71f3f9-c361-49b2-b3a1-cdae626c2211"
+  metadata.__system__encrypted: "" => "1"
+  name:                         "" => "win-engine-data-vol-0"
+  region:                       "" => "<computed>"
+  size:                         "" => "10"
+  tags.%:                       "" => "2"
+  tags.ETYPE:                   "" => "UAT"
+  tags.VTYPE:                   "" => "System"
+  volume_type:                  "" => "SSD"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[1]: Creating...[0m
+  attachment.#:      "" => "<computed>"
+  availability_zone: "" => "eu-de-01"
+  image_id:          "" => "073feea8-fbb5-4ce6-ae39-ef827523791e"
+  metadata.%:        "" => "<computed>"
+  name:              "" => "win-engine-sys-vol-1"
+  region:            "" => "<computed>"
+  size:              "" => "30"
+  volume_type:       "" => "SSD"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[0]: Creating...[0m
+  attachment.#:                 "" => "<computed>"
+  availability_zone:            "" => "eu-de-01"
+  metadata.%:                   "" => "2"
+  metadata.__system__cmkid:     "" => "6778bba6-7204-4e02-8a68-b29e898a999b"
+  metadata.__system__encrypted: "" => "1"
+  name:                         "" => "win-engine-data-vol-0"
+  region:                       "" => "<computed>"
+  size:                         "" => "10"
+  volume_type:                  "" => "SSD"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[0]: Creating...[0m
+  attachment.#:      "" => "<computed>"
+  availability_zone: "" => "eu-de-01"
+  image_id:          "" => "073feea8-fbb5-4ce6-ae39-ef827523791e"
+  metadata.%:        "" => "<computed>"
+  name:              "" => "win-engine-sys-vol-0"
+  region:            "" => "<computed>"
+  size:              "" => "30"
+  volume_type:       "" => "SSD"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[1]: Creating...[0m
+  attachment.#:                 "" => "<computed>"
+  availability_zone:            "" => "eu-de-01"
+  metadata.%:                   "" => "2"
+  metadata.__system__cmkid:     "" => "6778bba6-7204-4e02-8a68-b29e898a999b"
+  metadata.__system__encrypted: "" => "1"
+  name:                         "" => "win-engine-data-vol-1"
+  region:                       "" => "<computed>"
+  size:                         "" => "10"
+  volume_type:                  "" => "SSD"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[1]: Creation complete after 11s (ID: 1ca28605-cfb0-44cf-87b9-b25f58c9dbb7)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[0]: Creation complete after 11s (ID: 3474557b-56fc-4839-9bdf-fc2cd936edc3)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[0]: Creation complete after 11s (ID: f22fae64-30eb-44fd-b0ee-e8bb629c55ec)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol[1]: Creation complete after 11s (ID: eacd2957-2462-4e80-bfa0-83f05611eba3)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[1]: Creation complete after 12s (ID: 2a1ddf53-e1e0-49bb-82be-398c8a93be5a)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[0]: Creation complete after 12s (ID: d98dda33-d081-477b-b5b1-05f85897791d)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[1]: Creation complete after 12s (ID: 1858c8b8-ac2e-4222-ae9d-bd336bd06117)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1]: Creating...[0m
+  access_ip_v4:                         "" => "<computed>"
+  access_ip_v6:                         "" => "<computed>"
+  admin_pass:                           "" => "Passw0rd"
+  all_metadata.%:                       "" => "<computed>"
+  availability_zone:                    "" => "eu-de-02"
+  block_device.#:                       "" => "1"
+  block_device.0.boot_index:            "" => "0"
+  block_device.0.delete_on_termination: "" => "false"
+  block_device.0.destination_type:      "" => "volume"
+  block_device.0.source_type:           "" => "volume"
+  block_device.0.uuid:                  "" => "1858c8b8-ac2e-4222-ae9d-bd336bd06117"
+  flavor_id:                            "" => "<computed>"
+  flavor_name:                          "" => "s2.large.2"
+  image_id:                             "" => "<computed>"
+  image_name:                           "" => "<computed>"
+  key_pair:                             "" => "nor1"
+  name:                                 "" => "winnor1-engine1"
+  network.#:                            "" => "1"
+  network.0.access_network:             "" => "false"
+  network.0.fixed_ip_v4:                "" => "<computed>"
+  network.0.fixed_ip_v6:                "" => "<computed>"
+  network.0.floating_ip:                "" => "<computed>"
+  network.0.mac:                        "" => "<computed>"
+  network.0.name:                       "" => "<computed>"
+  network.0.port:                       "" => "<computed>"
+  network.0.uuid:                       "" => "28eb42a0-09d7-4612-9314-b8116c215a82"
+  region:                               "" => "<computed>"
+  security_groups.#:                    "" => "1"
+  security_groups.3814588639:           "" => "default"
+  stop_before_destroy:                  "" => "false"
+  tags.#:                               "" => "2"
+  tags.2596889105:                      "" => "OS.Windows2012"
+  tags.642646927:                       "" => "ETYPE.UAT"
+  user_data:                            "" => "b3cc7d14f2c9d5b169e68fed47e3b3437e7b12bc"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0]: Creating...[0m
+  access_ip_v4:                         "" => "<computed>"
+  access_ip_v6:                         "" => "<computed>"
+  admin_pass:                           "" => "Passw0rd"
+  all_metadata.%:                       "" => "<computed>"
+  availability_zone:                    "" => "eu-de-02"
+  block_device.#:                       "" => "1"
+  block_device.0.boot_index:            "" => "0"
+  block_device.0.delete_on_termination: "" => "false"
+  block_device.0.destination_type:      "" => "volume"
+  block_device.0.source_type:           "" => "volume"
+  block_device.0.uuid:                  "" => "d98dda33-d081-477b-b5b1-05f85897791d"
+  flavor_id:                            "" => "<computed>"
+  flavor_name:                          "" => "s2.large.2"
+  image_id:                             "" => "<computed>"
+  image_name:                           "" => "<computed>"
+  key_pair:                             "" => "nor1"
+  name:                                 "" => "winnor1-engine0"
+  network.#:                            "" => "1"
+  network.0.access_network:             "" => "false"
+  network.0.fixed_ip_v4:                "" => "<computed>"
+  network.0.fixed_ip_v6:                "" => "<computed>"
+  network.0.floating_ip:                "" => "<computed>"
+  network.0.mac:                        "" => "<computed>"
+  network.0.name:                       "" => "<computed>"
+  network.0.port:                       "" => "<computed>"
+  network.0.uuid:                       "" => "28eb42a0-09d7-4612-9314-b8116c215a82"
+  region:                               "" => "<computed>"
+  security_groups.#:                    "" => "1"
+  security_groups.3814588639:           "" => "default"
+  stop_before_destroy:                  "" => "false"
+  tags.#:                               "" => "2"
+  tags.2596889105:                      "" => "OS.Windows2012"
+  tags.642646927:                       "" => "ETYPE.UAT"
+  user_data:                            "" => "b3cc7d14f2c9d5b169e68fed47e3b3437e7b12bc"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_blockstorage_volume_v2.grid-engine-sys-vol[0]: Creation complete after 15s (ID: 65c795d7-033c-44bb-bbd5-35ae56eb99cb)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1]: Creating...[0m
+  access_ip_v4:                         "" => "<computed>"
+  access_ip_v6:                         "" => "<computed>"
+  admin_pass:                           "" => "Passw0rd"
+  all_metadata.%:                       "" => "<computed>"
+  availability_zone:                    "" => "eu-de-01"
+  block_device.#:                       "" => "1"
+  block_device.0.boot_index:            "" => "0"
+  block_device.0.delete_on_termination: "" => "false"
+  block_device.0.destination_type:      "" => "volume"
+  block_device.0.source_type:           "" => "volume"
+  block_device.0.uuid:                  "" => "2a1ddf53-e1e0-49bb-82be-398c8a93be5a"
+  flavor_id:                            "" => "<computed>"
+  flavor_name:                          "" => "s2.large.2"
+  image_id:                             "" => "<computed>"
+  image_name:                           "" => "<computed>"
+  key_pair:                             "" => "nor1"
+  name:                                 "" => "winnor2-engine1"
+  network.#:                            "" => "1"
+  network.0.access_network:             "" => "false"
+  network.0.fixed_ip_v4:                "" => "<computed>"
+  network.0.fixed_ip_v6:                "" => "<computed>"
+  network.0.floating_ip:                "" => "<computed>"
+  network.0.mac:                        "" => "<computed>"
+  network.0.name:                       "" => "<computed>"
+  network.0.port:                       "" => "<computed>"
+  network.0.uuid:                       "" => "63acb2fc-0969-4815-ae8f-ea0229ec46cc"
+  region:                               "" => "<computed>"
+  security_groups.#:                    "" => "1"
+  security_groups.3814588639:           "" => "default"
+  stop_before_destroy:                  "" => "false"
+  tags.#:                               "" => "2"
+  tags.2596889105:                      "" => "OS.Windows2012"
+  tags.642646927:                       "" => "ETYPE.UAT"
+  user_data:                            "" => "b3cc7d14f2c9d5b169e68fed47e3b3437e7b12bc"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0]: Creating...[0m
+  access_ip_v4:                         "" => "<computed>"
+  access_ip_v6:                         "" => "<computed>"
+  admin_pass:                           "" => "Passw0rd"
+  all_metadata.%:                       "" => "<computed>"
+  availability_zone:                    "" => "eu-de-01"
+  block_device.#:                       "" => "1"
+  block_device.0.boot_index:            "" => "0"
+  block_device.0.delete_on_termination: "" => "false"
+  block_device.0.destination_type:      "" => "volume"
+  block_device.0.source_type:           "" => "volume"
+  block_device.0.uuid:                  "" => "65c795d7-033c-44bb-bbd5-35ae56eb99cb"
+  flavor_id:                            "" => "<computed>"
+  flavor_name:                          "" => "s2.large.2"
+  image_id:                             "" => "<computed>"
+  image_name:                           "" => "<computed>"
+  key_pair:                             "" => "nor1"
+  name:                                 "" => "winnor2-engine0"
+  network.#:                            "" => "1"
+  network.0.access_network:             "" => "false"
+  network.0.fixed_ip_v4:                "" => "<computed>"
+  network.0.fixed_ip_v6:                "" => "<computed>"
+  network.0.floating_ip:                "" => "<computed>"
+  network.0.mac:                        "" => "<computed>"
+  network.0.name:                       "" => "<computed>"
+  network.0.port:                       "" => "<computed>"
+  network.0.uuid:                       "" => "63acb2fc-0969-4815-ae8f-ea0229ec46cc"
+  region:                               "" => "<computed>"
+  security_groups.#:                    "" => "1"
+  security_groups.3814588639:           "" => "default"
+  stop_before_destroy:                  "" => "false"
+  tags.#:                               "" => "2"
+  tags.2596889105:                      "" => "OS.Windows2012"
+  tags.642646927:                       "" => "ETYPE.UAT"
+  user_data:                            "" => "b3cc7d14f2c9d5b169e68fed47e3b3437e7b12bc"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0]: Provisioning with 'local-exec'...[0m[0m
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Executing: ["/bin/sh" "-c" "echo Running provisioner on winnor1-engine0 IP addr 192.168.100.195\nCOUNT=0; while ! echo exit | telnet 192.168.100.195 5986 | grep Connected; do sleep 10; echo $(( COUNT++ )); if [ $COUNT -gt 10 ]; then exit 0; fi; done && echo Running command"]
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Running provisioner on winnor1-engine0 IP addr 192.168.100.195
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1]: Provisioning with 'local-exec'...[0m[0m
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Executing: ["/bin/sh" "-c" "echo Running provisioner on winnor1-engine1 IP addr 192.168.100.26\nCOUNT=0; while ! echo exit | telnet 192.168.100.26 5986 | grep Connected; do sleep 10; echo $(( COUNT++ )); if [ $COUNT -gt 10 ]; then exit 0; fi; done && echo Running command"]
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Running provisioner on winnor1-engine1 IP addr 192.168.100.26
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1]: Provisioning with 'local-exec'...[0m[0m
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Executing: ["/bin/sh" "-c" "echo Running provisioner on winnor2-engine1 IP addr 192.168.101.75\nCOUNT=0; while ! echo exit | telnet 192.168.101.75 5986 | grep Connected; do sleep 10; echo $(( COUNT++ )); if [ $COUNT -gt 10 ]; then exit 0; fi; done && echo Running command"]
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Running provisioner on winnor2-engine1 IP addr 192.168.101.75
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0]: Provisioning with 'local-exec'...[0m[0m
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Executing: ["/bin/sh" "-c" "echo Running provisioner on winnor2-engine0 IP addr 192.168.101.171\nCOUNT=0; while ! echo exit | telnet 192.168.101.171 5986 | grep Connected; do sleep 10; echo $(( COUNT++ )); if [ $COUNT -gt 10 ]; then exit 0; fi; done && echo Running command"]
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Running provisioner on winnor2-engine0 IP addr 192.168.101.171
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (40s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (40s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (40s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (40s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (50s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (50s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (50s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (50s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m0s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m0s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m0s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m0s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m40s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m40s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m40s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m40s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m50s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m50s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (1m50s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (1m50s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m0s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m0s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m0s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m0s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m20s elapsed)[0m[0m
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): telnet: connect to address 192.168.100.195: Connection timed out
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): telnet: connect to address 192.168.100.26: Connection timed out
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m30s elapsed)[0m[0m
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): telnet: connect to address 192.168.101.75: Connection timed out
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): telnet: connect to address 192.168.101.171: Connection timed out
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.1: Still creating... (2m30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine.0: Still creating... (2m30s elapsed)[0m[0m
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): 0
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Connection closed by foreign host.
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Connected to 192.168.100.195.
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Running command
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[0]: Creation complete after 2m38s (ID: 99c91663-e8c3-4f0b-9648-73617615256a)[0m[0m
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): 0
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Connection closed by foreign host.
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Connected to 192.168.100.26.
+[0m[0mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Running command
+[0m[1mmodule.winnor1.opentelekomcloud_compute_instance_v2.grid-engine[1]: Creation complete after 2m39s (ID: edc2b8ea-740f-424e-9190-b540c96ae540)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[0]: Creating...[0m
+  instance_id: "" => "99c91663-e8c3-4f0b-9648-73617615256a"
+  region:      "" => "<computed>"
+  volume_id:   "" => "3474557b-56fc-4839-9bdf-fc2cd936edc3"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[1]: Creating...[0m
+  instance_id: "" => "edc2b8ea-740f-424e-9190-b540c96ae540"
+  region:      "" => "<computed>"
+  volume_id:   "" => "eacd2957-2462-4e80-bfa0-83f05611eba3"[0m
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): 0
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Connection closed by foreign host.
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Connected to 192.168.101.75.
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1] (local-exec): Running command
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[1]: Creation complete after 2m38s (ID: ef7900b4-c6d7-4faf-95c9-2640a3b7467d)[0m[0m
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): 0
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Connection closed by foreign host.
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Connected to 192.168.101.171.
+[0m[0mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0] (local-exec): Running command
+[0m[1mmodule.winnor2.opentelekomcloud_compute_instance_v2.grid-engine[0]: Creation complete after 2m39s (ID: 186df3e6-dc15-450e-89a4-d3e39abf2d79)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[0]: Creating...[0m
+  instance_id: "" => "186df3e6-dc15-450e-89a4-d3e39abf2d79"
+  region:      "" => "<computed>"
+  volume_id:   "" => "f22fae64-30eb-44fd-b0ee-e8bb629c55ec"[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[1]: Creating...[0m
+  instance_id: "" => "ef7900b4-c6d7-4faf-95c9-2640a3b7467d"
+  region:      "" => "<computed>"
+  volume_id:   "" => "1ca28605-cfb0-44cf-87b9-b25f58c9dbb7"[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (10s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (20s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[0]: Creation complete after 32s (ID: 99c91663-e8c3-4f0b-9648-73617615256a/3474557b-56fc-4839-9bdf-fc2cd936edc3)[0m[0m
+[0m[1mmodule.winnor1.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[1]: Creation complete after 32s (ID: edc2b8ea-740f-424e-9190-b540c96ae540/eacd2957-2462-4e80-bfa0-83f05611eba3)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.0: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach.1: Still creating... (30s elapsed)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[1]: Creation complete after 32s (ID: ef7900b4-c6d7-4faf-95c9-2640a3b7467d/1ca28605-cfb0-44cf-87b9-b25f58c9dbb7)[0m[0m
+[0m[1mmodule.winnor2.opentelekomcloud_compute_volume_attach_v2.engine_volume_attach[0]: Creation complete after 32s (ID: 186df3e6-dc15-450e-89a4-d3e39abf2d79/f22fae64-30eb-44fd-b0ee-e8bb629c55ec)[0m[0m
+[0m[1m[32m
+Apply complete! Resources: 16 added, 0 changed, 0 destroyed.[0m
