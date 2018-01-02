@@ -83,3 +83,13 @@ resource "opentelekomcloud_compute_volume_attach_v2" "engine_volume_attach" {
    depends_on = ["opentelekomcloud_compute_instance_v2.grid-engine","opentelekomcloud_blockstorage_volume_v2.grid-engine-data-vol"]
 }
 
+resource "opentelekomcloud_dns_recordset_v2" "otc_nor1tst_com" {
+  count = "${var.engine_count}"
+  zone_id = "${var.zone_id}"
+  name = "${element(opentelekomcloud_compute_instance_v2.grid-engine.*.name, count.index)}.otc.nor1tst.com."
+  description = "nor1 A-Name record set"
+  ttl = 3000
+  type = "A"
+  records = ["${element(opentelekomcloud_compute_instance_v2.grid-engine.*.access_ip_v4, count.index)}"]
+}
+
