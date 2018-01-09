@@ -1,0 +1,18 @@
+# Source this file to set the OTC Config
+export OS_USERNAME="weihongjin"
+#export OS_USER_DOMAIN_NAME="${OS_USERNAME##* }"
+export OS_USER_DOMAIN_NAME="OTC00000000001000010501"
+export OS_PASSWORD="Tsi8675*%"
+# Only change these for a different region
+export OS_TENANT_NAME=eu-de
+export OS_PROJECT_NAME=eu-de_nordea9
+export OS_AUTH_URL=https://iam.eu-de.otc.t-systems.com:443/v3
+#export HTTPS_PROXY="https://160.44.194.54:8128"
+# No changes needed beyond this point
+export NOVA_ENDPOINT_TYPE=publicURL
+export OS_ENDPOINT_TYPE=publicURL
+export CINDER_ENDPOINT_TYPE=publicURL
+export OS_VOLUME_API_VERSION=2
+export OS_IDENTITY_API_VERSION=3
+export OS_IMAGE_API_VERSION=2
+
