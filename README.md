@@ -54,4 +54,19 @@ will be processed concurrently. This number can be set using the -parallelism fl
 Setting -parallelism is considered an advanced operation and should not be necessary for normal usage 
 of Terraform. It may be helpful in certain special use cases or to help debug Terraform issues.
 
+How to define rds specification
+
+datastore name:  PostgreSQL
+datastore version: 9.5.5 , 9.6.5, 9.6.3
+speccode:  prefixed by rds.pg., then support flavors: s1.xlarge, m1.2xlarge, s1.medium, c2.medium, s1.large, 
+c2.large, m1.large, s1.2xlarge and m1.xlarge
+
+datastore name:  MySQL
+datastore version: 5.6.33, 5.6.30, 5.6.34, 5.6.35, 5.6.36, 5.7.17, 5.7.20
+speccode:  prefixed by rds.mysql., then support flavors: s1.xlarge, m1.2xlarge, s1.medium, c2.medium, s1.large,
+c2.large, m1.large, s1.2xlarge and m1.xlarge
+
+datastore name:  SQLServer
+datastore version: 2014 SP2 SE
+speccode:  prefixed by rds.pg., then support flavors: s1.xlarge, m1.2xlarge, c2.xlarge, s1.2xlarge and m1.xlarge
 
