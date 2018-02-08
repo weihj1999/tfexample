@@ -1,17 +1,16 @@
 variable "username" {
   # If you don't fill this in, you will be prompted for it
-  default = "weihongjin"
-  #default = "temp-weihongjin"
+  default = "<changeme>"
 }
 
 variable "password" {
   # If you don't fill this in, you will be prompted for it
-  default = "Tsi8675**"
+  default = "<changeme>"
 }
 
 variable "domain_name" {
   # If you don't fill this in, you will be prompted for it
-  default = "OTC00000000001000010501"
+  default = "changeme"
 }
 
 variable "tenant_name" { }
