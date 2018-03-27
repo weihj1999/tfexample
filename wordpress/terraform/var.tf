@@ -4,8 +4,6 @@ variable "username" {
 }
 
 variable "password" {
-  # If you don't fill this in, you will be prompted for it
-  default = "Tsi8675**"
 }
 
 variable "domain_name" {
