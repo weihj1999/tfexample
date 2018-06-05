@@ -1,0 +1,17 @@
+---
+
+- hosts: broker
+  remote_user: linux
+  roles:
+  - {role: base_manager_configure, become: yes}
+  - {role: base_manager_install}
+  - {role: broker_install}
+
+- hosts: director
+  remote_user: linux
+  roles:
+  - {role: base_manager_configure, become: yes}
+  - {role: base_manager_install}
+  - {role: director_install}
+
+...
