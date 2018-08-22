@@ -1,0 +1,13 @@
+{ 
+    "replication": { 
+        "name": "DRS TEST",  
+        "description": "test",  
+        "volume_ids": [ 
+            "3dabe76a-f48c-477e-9f3f-3c661674b6a1",
+            "f2213d9c-c567-48a6-b85e-454337dc38d3"
+        ],  
+        "replication_master": "eu-de-01",  
+        "replication_model": "hypermetro", 
+        "priority_station": "eu-de-01"
+    } 
+}
