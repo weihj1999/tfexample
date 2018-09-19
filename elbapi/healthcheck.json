@@ -1,0 +1,8 @@
+{ 
+    "healthmonitor": { 
+        "delay": 15, 
+        "name": "health-xx", 
+        "timeout": 12, 
+        "monitor_port": 10199
+    } 
+}
